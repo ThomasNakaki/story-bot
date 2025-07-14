@@ -6,7 +6,7 @@ from profanityfilter import ProfanityFilter
 pf = ProfanityFilter()
 
 try:
-    with open('Stories\\Stories.json','r') as file:
+    with open('Stories/Stories.json','r') as file:
         data = json.load(file)
         file.close()
         title = data['title']
